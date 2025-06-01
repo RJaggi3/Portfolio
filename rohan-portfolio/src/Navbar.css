@@ -1,0 +1,18 @@
+#navbar{
+    background-color: black;
+    /*border: 5px solid red;*/
+    position: fixed;
+    width: 100vw;
+}
+#navbar-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#text{
+    color:whitesmoke;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
