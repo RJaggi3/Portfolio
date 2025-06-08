@@ -1,6 +1,6 @@
-import { useState } from 'react'
 import './App.css'
 import Navbar from './Navbar'
+import About from './About'
 
 function App() {
 /**
@@ -10,11 +10,13 @@ function App() {
 
   return (
   <div>
-    <Navbar/>
+      <Navbar/>
+    
     <div id="content">
-      <div id="about"></div>
+      <About/>
     </div>
   </div> 
+
   )
 }
 

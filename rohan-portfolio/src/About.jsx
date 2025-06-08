@@ -1,8 +1,10 @@
+import './About.css'
+
 function About(){
     
     return(
-    <div>
-
+    <div id="about">
+        <p id="text">Test</p>
     </div>
     )
 }
