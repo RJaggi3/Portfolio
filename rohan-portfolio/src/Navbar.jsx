@@ -10,7 +10,7 @@ function Navbar() {
   return (
   <div id="navbar">
     <div id="navbar-items">
-        <span id="text">Rohan</span>
+        <span id="text">Home</span>
         <span>
             <span id="text">Projects</span>
             <span id="text">Experience</span>
