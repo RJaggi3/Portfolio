@@ -1,22 +1,15 @@
 import './About.css'
+import IconBtn from './IconBtn'
 
 function About(){
     
     return(
     <div id="about">
         <p id="text">Hello, I'm Rohan Jaggi</p>
-        <a href="https://www.linkedin.com/in/rohan-jaggi-bba884247/" target="_blank">
-            <button>Linkedln</button>
-        </a>
-        
-        <a href="https://github.com/RJaggi3" target='_blank'>
-            <button>Github</button>
-        </a>
 
-        <a href="mailto:rohanjaggi3@gmail.com" target='_blank'>
-            <button>Email</button>
-        </a>
-        
+        <IconBtn text="Linkedln" icon="\icons\linkedin_icon.svg" ref="https://www.linkedin.com/in/rohan-jaggi-bba884247/"/>
+        <IconBtn text="Github" ref="https://github.com/RJaggi3" icon="\icons\github_icon.svg"/> 
+        <IconBtn text="Email" ref="mailto:rohanjaggi3@gmail.com" icon="\public\icons\mail_icon.svg"/> 
 
     </div>
     )
