@@ -10,10 +10,10 @@ function Navbar() {
   return (
   <div id="navbar">
     <div id="navbar-items">
-        <span id="text">Home</span>
+        <span className="text">Home</span>
         <span>
-            <span id="text">Projects</span>
-            <span id="text">Experience</span>
+            <span className="text">Projects</span>
+            <span className="text">Experience</span>
         </span>
     </div>
     

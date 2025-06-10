@@ -1,5 +1,8 @@
-#about{
+#page{
     height: 40vw;
     width: 100vw;
-    background-color: black;
+}
+
+.about{
+    background-color: rgb(6, 6, 6);
 }

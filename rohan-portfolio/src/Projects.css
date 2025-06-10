@@ -1,0 +1,35 @@
+.Projects-page{
+    background-color: rgb(8, 8, 8);
+}
+
+#card-heading{
+    color:whitesmoke;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#card-desc{
+    color:whitesmoke;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#card-img{
+    width: 80%;
+}
+#project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid red;
+    height: 40vw;
+    text-align: center;
+
+}
+.project-card{
+    width:  500px;
+    height: 200px;
+    border: 2px solid red;
+}
